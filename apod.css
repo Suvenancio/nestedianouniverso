@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(./galaxy.jpg);
+    background-image: url(./_116600192_gettyimages-1211293811.jpg);
     color: white;
     width: 50%;
     
@@ -54,12 +54,16 @@ img{
 p{
     width: 70vh;
     margin-left:20%;
-   
     height: 65vh ;
     margin-top: 5%;
-    background-color: black;
+    background-color: gray;
     opacity: 0.9;
+    
    
+}
+.descricao{
+
+    display: none;
 }
 
 
