@@ -10,15 +10,15 @@ $('button').click(function(){
         'success': function(ok)
         {   
             $('#mostraTexto').html(`<p>${ok.explanation}</p>`).removeClass('descricao')
-            $('#mostraImagem').html(`<img src="${ok.url}">`)
+            
             $('#titulo').html(`${ok.title}`)
             $('#copyright').html(`${ok.copyright}`)
 
            if(ok.media_type == "image"){
-
-           }else
+            $('#mostraImagem').html(`<img src="${ok.url}">`)
+           }else(ok.media_type == "video")
            {
-               
+            $('#mostraImagem').html(`<iframe width="600" height="400" src="${ok.url}"></iframe>`)
            }
 
             
