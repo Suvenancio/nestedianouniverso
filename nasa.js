@@ -14,7 +14,12 @@ $('button').click(function(){
             $('#titulo').html(`${ok.title}`)
             $('#copyright').html(`${ok.copyright}`)
 
-           
+           if(ok.media_type == "image"){
+
+           }else
+           {
+               
+           }
 
             
             
