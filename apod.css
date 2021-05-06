@@ -40,9 +40,6 @@ body{
    
 }
 
-.invisivel{
-    display: none;
-}
 
 img{
     width: 90vh;
@@ -89,7 +86,8 @@ h5{
 
 button{
     
-    padding: 5px;
+    padding: 10px;
+    width: 50px;
     margin-top: 10%;
     margin-left: 1%;
     
