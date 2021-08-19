@@ -20,7 +20,7 @@ $('button').click(function(){
            }
            else
            {
-            $('#mostraImagem').html(`<iframe width="600" height="400" src="${ok.url}"></iframe>`)
+            $('#mostraImagem').html(`<iframe width="600" height="400" src="${ok.url}"></iframe>`).toUppercase
 
            }
           

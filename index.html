@@ -4,7 +4,8 @@
     <link rel="stylesheet" href="apod.css">
 
     <title>Neste dia no universo</title>
-     
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -12,36 +13,41 @@
 <div class="container">
     <header >
        <h1 class="titulo">NESTE DIA NO UNIVERSO</h1>
+        
+            <form>
+                <h5>Escolha a data</h5>
+                <input class="date" id="data" type="date" required>
+            
+                  <button>VER</button>
+            </form>     
     </header>
 
-<main>
-  
-        <h5>Escolha a data</h5>
-    <form class="nav">
-            
-        <input class="date" id="data" type="date" required>
-            
-        <button>VER</button>
-
-    </form>
+        <main class="conteudo">
+            <h2 id="titulo"></h2>
+            <div class="image" id="mostraImagem"></div>
+            <p class="descricao" id="mostraTexto"></p> 
+        </main> 
 </div>
-
     
-        <h2 id="titulo"></h2>
-    <div class="conteudo">
 
-        <div class="image" id="mostraImagem"></div>
-        <p class="descricao" id="mostraTexto"></p>
-
-    </div>  
-
+      
+ 
+     
+    
 </main>
+    </div>  
+  
+
+
+
+
+
 
 </div>
-
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>   
     <script src="nasa.js"></script>
-  
+    
 </body>
+
 </html>

@@ -6,89 +6,90 @@
 }
 
 body{
-    background-image: url(./galaxy.jpg);
+    background-image: url(./universer.gif);
     color: white;
-    width: 50%;
+   
+   
+}
+header{    
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 180vh;
+    height: 20vh;
+    background-color: rgb(21, 11, 112);
+}
+.conteudo{
+    display: flex;
     
 }
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .titulo{
-    font-size: 2em;
-    color: yellow;
-    margin-left: 7%;
-    margin-top: 5%;
-    padding-left: 0;
-    padding: 30px;
-    width: 50%;
-    
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: white;
 }
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   
-}
-
-.nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
 }
 
 .conteudo{
     display: flex;   
-    
-   
+    flex-direction: row;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
 img{
     width: 90vh;
-    margin-left: 15%;
-    margin-top: 5%;
-
 }
 
 p{
     width: 70vh;
-    margin-left:20%;
     height: 65vh ;
-    margin-top: 5%;
-    background-color: gray;
-    opacity: 0.9;
-    
+    background-color: rgba(245, 233, 233, 0.096);
    
 }
 .descricao{
-
     display: none;
 }
 
 
-h2{
-    margin-left: 10%;
+h2{ 
     color: white;
+    margin-left: 30%;
+    margin-block-end:2%;   
 }
 
-.date {
-    margin-top: 10%;
+.date { 
     font-size: 1.2em;
-    margin-left: 48%;
-    width: 65vh;
-    
+    padding: 10px;
+    height: 5vh;
+    margin-left: 10%;
+    margin-top: 1%;    
 }
 
 h5{
     font-size: 1.7em;
-    margin-top: 5%;
-    margin-left: 50%;
-    color: yellow;
+    margin-top: 1%;
+    margin-left: 25%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
-button{
-    
-    padding: 10px;
+button{  
+    padding: 7px;
     width: 50px;
-    margin-top: 10%;
-    margin-left: 1%;
+    margin-top: 1%;
+    margin-left: 2%;
     
 }
